@@ -1,0 +1,320 @@
+/* Roboto Font Family Link  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Berkshire Swash Font Family Link  */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+ /* Home Section Start */
+.header{
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/fresco-pizza-top.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+}
+nav{
+    background-color: whitesmoke;
+    height: 3.99999999999999vh;
+    padding: 2% 5%;
+    display: flex;
+}
+nav img{
+    cursor: pointer;
+    transform: scale(1.5);
+    margin-left: 4%;
+}
+nav ul{
+    text-align: right;
+    flex: 1;
+}
+nav ul li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+nav ul li a{
+    color: black;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: darkorange;
+}
+nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: darkorange;
+    transition: .5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.button{
+    background-color: darkorange;
+    border-radius: 80px;
+    padding: 10px 50px;
+    font-size: 18px;
+    color: white;
+}
+.button:hover{
+    letter-spacing: 2px;
+    transition: .5s;
+}
+.head{
+    display: flex;
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.head-image img{
+    height: auto;
+    max-width: 100%;
+    border-radius: none;
+    box-shadow: none;
+    border: none;
+    opacity: .65;
+    filter: brightness( 100% ) contrast( 100% ) saturate( 99% ) blur( 0px ) hue-rotate( 0deg );
+}
+.text{
+    margin: 0 20%;
+    color: white;
+}
+.text h1{
+    font-size: 155px;
+    padding-top: 20px;
+    font-family: 'Berkshire Swash', handwriting;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.text h3{
+    font-size: 25px;
+    color: darkorange;
+    font-weight: 300;
+}
+.text h2{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.text span{
+    content: "";
+    width: 15%;
+    height: 2px;
+    background-color: darkorange;
+    display: inline-flex;
+    margin: 4px 13px;
+}
+.welcome{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/pic28-free-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    display: flex;
+    padding-top: 15%;
+    margin: 0 20px;
+}
+.text-side{
+    padding: 4% 40px;
+}
+.text-side h3{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    font-family: 'Berkshire Swash', handwriting;
+}
+.text-side h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Berkshire Swash', handwriting;
+}
+.text-side h2{
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.text-side p{
+    padding-top: 25px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+.text-img{
+    margin: 0 1%;
+    position: relative;
+}
+.text-img img{
+    width: 90%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    padding-top: 70%;
+    color: black;
+}
+.overlay h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Berkshire Swash', handwriting;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-weight: 500;
+}
+.overlay h3{
+    text-align: center;
+    padding-left: 40px;
+    font-weight: 600;
+}
+.overlay span{
+    font-family: 'Berkshire Swash', handwriting;
+    font-weight: 500;
+}
+ /* Our Menu Section Start */
+.menu{
+    text-align: center;
+}
+.menu h1{
+    font-size: 60px;
+    padding-top: 25px;
+    font-family: 'Berkshire Swash', handwriting;
+    font-weight: 500;
+}
+.menu h2{
+    padding-top: 18px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.menu h3{
+    padding-top: 30px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+.background{
+    width: 100%;
+    height: 190vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/dine-out.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    padding-top: 15%;
+    margin-top: 120px;
+}
+.card-flex{
+    margin: 0 90px;
+    display: flex;
+}
+.card{
+    background-color: white;
+    border: 1px solid darkorange;
+    width: 100%;
+    height: 52vh;
+    text-align: center;
+}
+.card:hover{
+    transition: .5s;
+    background-color: aliceblue;
+}
+.card h1{
+    padding: 40px;
+    font-weight: 400;
+}
+.card p{
+    line-height: 1.3;
+    padding-bottom: 30px;
+}
+.card span{
+    content: "";
+    max-width: 80%;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    margin: 15px 30px;
+}
+.card h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Berkshire Swash', handwriting;
+}
+.card img{
+    width: 100%;
+}
+.btn{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+ /* About Section Start */
+.about{
+    display: flex;
+    margin-top: 15%;
+}
+.left-side{
+    margin: 40px 90px;
+    position: relative;
+}
+.left-side img{
+    width: 100%;
+}
+.over{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+.over h1{
+    font-family: 'Berkshire Swash', handwriting;
+    font-size: 35px;
+}
+.right-side{
+    padding-right: 70px;
+    padding-top: 5rem;
+}
+ /* Contact Section Start */
+ .contact{
+    width: 100%;
+    height: 45vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Prepare-dish-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    margin-top: 12%;
+ }
+ .contact h1{
+    font-size: 50px;
+    font-family: 'Berkshire Swash', handwriting;
+    font-weight: 500;
+ }
+.contact h3{
+    padding: 50px;
+    font-size: 40px;
+    font-weight: 540;
+    font-family: 'Berkshire Swash', handwriting;
+}
+.contact h2{
+    font-weight: 500;
+    font-family: 'Berkshire Swash', handwriting;
+}
